@@ -1,6 +1,26 @@
 
-* header{
-   background-image: url('/images/camo.jpg');
+.header-bg-img {
+   background-image: url('../images/camo.jpg');
+   padding-top: 10px;
+   color: white;
+   font-size: 40px;
    text-align: center;
-   font-size: 50px;
+}
+
+.content{
+   background-color: black;
+   height: 750px;
+   padding-top: 35px;
+   color: white;
+}
+
+#warning{
+   background-image: url('../images/warning.svg');
+
+}
+
+
+
+p {
+   margin: 0px;
 }
