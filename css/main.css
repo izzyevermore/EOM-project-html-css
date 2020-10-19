@@ -17,6 +17,7 @@
 #warning{
    background-image: url('../images/warning.svg');
 
+
 }
 
 
@@ -24,3 +25,39 @@
 p {
    margin: 0px;
 }
+
+#search{
+   padding-right: 15px;
+
+}
+
+.input{
+   margin-top: 10px;
+   float: right;
+}
+
+
+.intro{
+   font-size: 20px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.card {
+   box-shadow: 0 4px 8px 0 rgb(248, 245, 245);
+   transition: 0.3s;
+   width: 40%;
+ }
+
+ .card:hover {
+   box-shadow: 0 8px 16px 0 rgb(243, 241, 241);
+ }
+
+ .container {
+   padding: 2px 16px;
+ }
+
+ .main-card-container {
+    margin-top: 48px;
+    margin-left: 100px;
+ }
