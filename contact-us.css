@@ -1,0 +1,145 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: #2165bd;
+      text-align: center;
+      margin: auto;
+      font-family: sans-serif;
+      background: linear-gradient(black, blue);
+  }
+  
+  .signup-section {
+      position: relative;
+      width: 100%;
+      border-top: 1px solid;
+      border-color: #772222;
+  }
+  
+  header {
+      display: block;
+      position: relative;
+      top: -25px;
+      height: 50px;
+  }
+  
+  form {
+      padding: 5%;
+      padding-top: 0;
+      margin: 0 auto;
+  }
+  
+  #logo-container {
+      margin-bottom: 3%;
+  }
+  
+  svg {
+      transform: scale(0.8, 0.8);
+  }
+  
+  path#bratva-logo-image {
+      fill: #511c1c;
+      stroke: #511c1c;
+  }
+  
+  #bratva-logo-text {
+      fill: black;
+  }
+  
+  .input-label {
+      display: block;
+      float: left;
+      margin: 15px 0 3px;
+      font-family: sans-serif;
+      font-size: 15px;
+      color: white;
+  }
+  
+  input {
+      display: block;
+  }
+  
+  .signup-input {
+      width: 100%;
+      height: 40px;
+      border-radius: 5px;
+      border: 1px transparent;
+      box-sizing: border-box;
+      background-color: #f0eed3;
+      padding: 0px 0px 0px 5px;
+      font-size: 15px;
+  }
+  
+  input:focus {
+      outline: none;
+  }
+  
+  .signup-submit {
+      margin-top: 25px;
+      height: 40px;
+      width: 100%;
+      border-radius: 5px;
+      border: transparent;
+      font-size: 17px;
+      color: white;
+      background-color: #6aab79;
+  }
+  
+  .signup-submit:hover {
+      background-color: #61926d;
+  }
+  
+  .signup-submit:focus {
+      outline: none;
+  }
+  
+  .signup-note {
+      color: #dcdada;
+      font-size: 40px;
+      margin-bottom: 15px;
+      margin-top: 0;
+      background-color: #2165bd;
+  }
+  
+  .pass-reset {
+      color: #b3c9de;
+      cursor: pointer;
+      margin: 0 0 10px 0;
+  }
+  
+  .signin-question-link {
+      color: #dcdada;
+  }
+  
+  .signin-link {
+      color: #6aab79;
+      cursor: pointer;
+  }
+  .signin-div {
+      margin-bottom: 40px;
+  }
+  
+  
+  @media screen and (min-width: 501px) {
+     .signup-section {
+         width: 500px;
+         margin: auto;
+         margin-bottom: 0;
+     }
+  }
+  
+  @media screen and (min-width: 1025px) {
+      .signup-section {
+          margin-top: 0;
+          border: 1px solid;
+          border-radius: 15px;
+          border-color: #772222;
+      }
+  }
